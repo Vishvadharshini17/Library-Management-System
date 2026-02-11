@@ -1,30 +1,47 @@
- **Library Management System**
+ **Library Management System**:
+ 
+🔹 **Overview**:
 
-A web-based Library Management System that automates book tracking, member management, and issue-return workflows using Java and MySQL. The application reduces manual effort, improves accuracy, and streamlines daily library operations.
+Developed a Java-based Library Management System using Servlets and JDBC to manage books and author records efficiently.
+The application follows a layered architecture (Bean, DAO, Service, Servlet) to ensure scalability, maintainability, and clean code practices.
 
- **Features**:
+🔹 **Key Features**:
 
-* Secure Admin/User authentication
-* Book, author, and member management
-* Issue & return tracking with fine calculation
-* Search functionality with real-time availability
-* Organized MVC architecture with clean CRUD operations
+Add and view books with author details
 
- **Tech Stack**:
+Perform CRUD operations using JDBC
 
-**Backend:** Java, Servlets
-**Frontend:** HTML, CSS, JavaScript / JSP
-**Database:** MySQL
-**Server:** Apache Tomcat
-**Version Control:** Git & GitHub
+Implements DAO design pattern
 
+Centralized database connectivity
 
-**Project Highlights**:
+Simple and user-friendly interface
 
-* Layered MVC architecture for scalability
-* Optimized relational database design
-* Efficient handling of library workflows
-* Maintainable and structured codebase
+🔹 **Tech Stack**:
+
+Java | Servlets | JDBC | Oracle DB | HTML | Apache Tomcat | Eclipse
+
+🔹 **Architecture**:
+
+Structured using a multi-layer design:
+
+ Bean – Data models
+ DAO – Database operations
+ Service – Business logic
+ Servlet – Request handling
+ Utility – DB connection
+
+🔹 **How to Run**:
+
+Import the project into Eclipse
+
+Configure Apache Tomcat
+
+Add Oracle JDBC driver (ojdbc8.jar)
+
+Run on server
+
+**Screenshots**:
 
 <img width="787" height="343" alt="image" src="https://github.com/user-attachments/assets/03399222-1595-4aec-866c-412eaceecb9b" />
 <img width="772" height="483" alt="Screenshot 2026-02-11 123227" src="https://github.com/user-attachments/assets/4e01caf8-5672-4ef8-be38-712b781d5824" />
