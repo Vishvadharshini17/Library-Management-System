@@ -33,6 +33,7 @@ Server: Apache Tomcat
 
 ## Project Structure:
 
+```plaintext
 LibraryManagement
 │
 ├── src/main/java
@@ -65,6 +66,7 @@ LibraryManagement
 │   └── Failure.html
 │
 └── build
+```
 
 ## Features:
 
