@@ -1,45 +1,89 @@
- **Library Management System**:
- 
-🔹 **Overview**:
+**Library Management System**:
 
-Developed a Java-based Library Management System using Servlets and JDBC to manage books and author records efficiently.
-The application follows a layered architecture (Bean, DAO, Service, Servlet) to ensure scalability, maintainability, and clean code practices.
+**Project Overview**:
 
-🔹 **Key Features**:
+The Library Management System is a Java-based web application developed using Servlets, JDBC, and Object-Oriented Programming (OOP) concepts.
+This system helps manage library operations such as adding books, viewing books, managing authors, and handling database connectivity efficiently.
 
-Add and view books with author details
+The project follows a layered architecture using Bean, DAO, Service, Servlet, and Utility layers, ensuring clean separation of concerns and easy maintenance.
 
-Perform CRUD operations using JDBC
+**Objectives**:
 
-Implements DAO design pattern
+The system is designed to:
 
-Centralized database connectivity
+Add new books with author details
 
-Simple and user-friendly interface
+View available books in the library
 
-🔹 **Tech Stack**:
+Maintain author and book information
 
-Java | Servlets | JDBC | Oracle DB | HTML | Apache Tomcat | Eclipse
+**Technologies Used**:
 
-🔹 **Architecture**:
+Programming Language: Java
 
-Structured using a multi-layer design:
+Web Technologies: HTML, Servlets
 
- Bean – Data models
- DAO – Database operations
- Service – Business logic
- Servlet – Request handling
- Utility – DB connection
+Database: Oracle Database
 
-🔹 **How to Run**:
+Connectivity: JDBC
 
-Import the project into Eclipse
+IDE: Eclipse IDE
 
-Configure Apache Tomcat
+Server: Apache Tomcat
 
-Add Oracle JDBC driver (ojdbc8.jar)
+**Project Structure**:
 
-Run on server
+LibraryManagement
+│
+├── src/main/java
+│   └── com.wipro.book
+│       ├── bean
+│       │   ├── AuthorBean.java
+│       │   └── BookBean.java
+│       │
+│       ├── dao
+│       │   ├── AuthorDAO.java
+│       │   └── BookDAO.java
+│       │
+│       ├── service
+│       │   └── Administrator.java
+│       │
+│       ├── servlets
+│       │   ├── MainServlet.java
+│       │   └── ViewServlet.java
+│       │
+│       └── util
+│           └── DBUtil.java
+│
+├── src/main/webapp
+│   ├── META-INF
+│   ├── WEB-INF
+│   ├── AddBook.html
+│   ├── ViewBook.html
+│   ├── Menu.html
+│   ├── Invalid.html
+│   └── Failure.html
+│
+└── build
+
+**Features**:
+
+Add new books with author information
+
+View all books stored in the database
+
+Input validation for book details
+
+
+**Database Details**:
+
+Tables Used
+
+BOOK_TABLE – Stores book details
+
+AUTHOR_TABLE – Stores author details
+<img width="773" height="559" alt="image" src="https://github.com/user-attachments/assets/7402b5c7-7628-4991-9eff-a068a9df7798" />
+
 
 **Screenshots**:
 
