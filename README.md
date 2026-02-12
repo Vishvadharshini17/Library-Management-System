@@ -77,7 +77,7 @@ Input validation for book details
 
 **Database Details**:
 
-# Tables Used
+**Tables Used**:
 
 BOOK_TABLE – Stores book details
 
