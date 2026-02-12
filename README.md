@@ -77,7 +77,7 @@ Input validation for book details
 
 **Database Details**:
 
-Tables Used
+# Tables Used
 
 BOOK_TABLE – Stores book details
 
@@ -85,7 +85,7 @@ AUTHOR_TABLE – Stores author details
 <img width="773" height="559" alt="image" src="https://github.com/user-attachments/assets/7402b5c7-7628-4991-9eff-a068a9df7798" />
 
 
-**Screenshots**:
+**Output**:
 
 <img width="787" height="343" alt="image" src="https://github.com/user-attachments/assets/03399222-1595-4aec-866c-412eaceecb9b" />
 <img width="772" height="483" alt="Screenshot 2026-02-11 123227" src="https://github.com/user-attachments/assets/4e01caf8-5672-4ef8-be38-712b781d5824" />
